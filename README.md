@@ -10,9 +10,11 @@ Information at [Project Euler 063](https://projecteuler.net/problem=63)
 
 **Getting Started**
 
-Enter a whole number between 1 and 21 (without leading zeros such as 01) and select the Submit Button.  You will see the length of the digits entered as well as the number of positive integers of that length and power, unless you have made an invalid input.  Select the Reset Button to clear the information or to start again.
+Select Show Solution to Show the Solution.  Select Hide Solution to Hide the Solution.  When the solution is shown, the number of positive integers of length 1, 2, 3, 4, 5, 6, 7, 8, 10 and 21 are given.
 
 **User Stories**
+
+As a user, I can show or hide the solution by selecting the appropriate button.
 
 As a user, I expect the function `powerfulDigitCounts(1)` to return a number.
 
@@ -40,11 +42,11 @@ User Stories on function `powerfulDigitCounts(n)` taken from [FreeCodeCamp - Cod
 
 **Information Architecture**
 
-The function `powerfulDigitCounts(n)` returns a number, where `n` is a number from 1 to 21.
+The function `powerfulDigitCounts(n)` returns a number, where `n` is a number.
 
 ## Features
 
-Allows the user to enter the length of the digits in order to find the number of positive integers of that length and the power equal to that length.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+Allows the user to show or hide the solution to the problem as described in [FreeCodeCamp - Coding Interview Prep - Project Euler 063](https://www.freecodecamp.org/learn/coding-interview-prep/project-euler/problem-63-powerful-digit-counts)
 
 Extensions include the count of all n-digit numbers which are nth power.
 
