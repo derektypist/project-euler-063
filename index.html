@@ -21,31 +21,26 @@
 
     <!-- Set Up Instructions -->
     <section class="container-fluid instructions">
-        <p>The 5-digit number, 16807=7<sup>5</sup>, is also a fifth power. Similiarly, the 9-digit number, 134217728=8<sup>9</sup>, is
+        <p>The 5-digit number, 16807=7<sup>5</sup>, is also a fifth power. Similiarly, the 9-digit number,
+            134217728=8<sup>9</sup>, is
             a ninth power.</p>
-        <p>Find the number of positive integers of length n and an nth power. Begin by entering the length of digits.
+        <p>Find the number of positive integers of length n and an nth power. Select Show Solution to Show the Solution.
+            Select Hide Solution to Hide the Solution.
         </p>
     </section>
 
-    <!-- Set Up Form -->
+    <!-- Set Up and Center Buttons  -->
     <section class="container-fluid">
-        <form>
-            <!-- Set Up Label and Input -->
-            <article class="mb-3">
-                <label for="mylength" class="form-label">Length of Digits (Required)</label>
-                <input class="form-control" placeholder="Enter whole number between 1 and 21 (without leading zeros)"
-                    title="Enter whole number between 1 and 21 (without leading zeros)" id="mylength">
-            </article>
 
-            <!-- Set Up and Center Buttons -->
-            <article class="d-grid gap-2 d-flex justify-content-center">
-                <button type="button" class="btn btn-info" onclick="getLengthInfo()">Submit</button>
-                <button type="reset" class="btn btn-warning" onclick="clearInfo()">Reset</button>
-            </article>
-        </form>
+        <!-- Set Up and Center Buttons -->
+        <article class="d-grid gap-2 d-flex justify-content-center">
+            <button type="button" class="btn btn-info" onclick="showSolution()">Show Solution</button>
+            <button type="reset" class="btn btn-warning" onclick="hideSolution()">Hide Solution</button>
+        </article>
 
-        <!-- Display Length Information -->
-        <p id="lengthinfo"></p>
+
+        <!-- Display Solution -->
+        <p id="solution"></p>
 
         <!-- Load Script -->
         <script src="js/script.js"></script>
