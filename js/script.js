@@ -51,3 +51,9 @@ function powerfulDigitCounts(n) {
 
     return numbersCount;
 }
+
+// Function to Clear Information
+function clearInfo() {
+    let txt = "";
+    document.getElementById("lengthinfo").innerHTML = txt;
+}
