@@ -46,7 +46,7 @@ The function `powerfulDigitCounts(n)` returns a number, where `n` is a number.
 
 ## Features
 
-Allows the user to show or hide the solution to the problem as described in [FreeCodeCamp - Coding Interview Prep - Project Euler 063](https://www.freecodecamp.org/learn/coding-interview-prep/project-euler/problem-63-powerful-digit-counts)
+Allows the user to show or hide the solution to the problem as described in [FreeCodeCamp - Coding Interview Prep - Project Euler 063](https://www.freecodecamp.org/learn/coding-interview-prep/project-euler/problem-63-powerful-digit-counts).
 
 Extensions include the count of all n-digit numbers which are nth power.
 
