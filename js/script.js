@@ -5,7 +5,7 @@ function showSolution() {
     let examples = [1,2,3,4,5,6,7,8,10,21];
     // Apply For Loop
     for (let example of examples) {
-        txt += `There are ${powerfulDigitCounts(example)} positive integers of length ${example} and power of ${example}.`;
+        txt += `There are ${powerfulDigitCounts(example)} positive integers of length ${example} and power of ${example}. <br>`;
     }
 
     // Display Information in the Browser
