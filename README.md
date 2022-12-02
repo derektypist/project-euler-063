@@ -66,7 +66,7 @@ Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-063) at t
 
 Written by me.
 
-### Acknowledgement
+### Acknowledgements
 
 - [Project Euler](https://projecteuler.net)
 - [FreeCodeCamp](https://www.freecodecamp.org)
