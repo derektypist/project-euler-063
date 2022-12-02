@@ -5,7 +5,7 @@ function getLengthInfo() {
     // Get the value of the input field
     let num = document.getElementById("mylength").value;
     // Check if input is valid
-    if (isNaN(num) || num.length==0 || num<1 || num>21 || (num.length>1 && num[0]=="0") || !Number.isInteger(Number(num))) {
+    if (isNaN(num) || num.length == 0 || num < 1 || num > 21 || (num.length > 1 && num[0] == "0") || !Number.isInteger(Number(num))) {
         txt += `Invalid Input.  Please enter a whole number between 1 and 21.  Do not include leading zeros.`
     } else {
         txt += `You have requested ${num}-digit length. <p>`;
@@ -35,8 +35,8 @@ function getLengthInfo() {
 function powerfulDigitCounts(n) {
     function countDigits(num) {
         let counter = 0;
-        while (num>0) {
-            num = Math.floor(num/10);
+        while (num > 0) {
+            num = Math.floor(num / 10);
             counter++;
         }
         return counter;
