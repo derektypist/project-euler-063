@@ -19,9 +19,24 @@
     <!-- Set Up Instructions -->
     <section class="container-fluid instructions">
         <p>The 5-digit number, 16807=7<sup>5</sup>, is also a fifth power.  Similiarly, the 9-digit number, 134217728, is a ninth power.</p>
-        <p>Find the number of positive integers of length n and an nth power.  Begin by entering the length.</p>
+        <p>Find the number of positive integers of length n and an nth power.  Begin by entering the length of digits.</p>
     </section>
 
     <!-- Set Up Form -->
+    <section class="container-fluid">
+        <form>
+            <!-- Set Up Label and Input -->
+            <article class="mb-3">
+                <label for="mylength" class="form-label">Length of Digits (Required)</label>
+                <input class="form-control" placeholder="Enter whole number between 1 and 21 (without leading zeros)" title="Enter whole number between 1 and 21 (without leading zeros)" id="mylength">
+            </article>
+
+            <!-- Set Up and Center Buttons -->
+            <article class="d-grid gap-2 d-flex justify-content-center">
+                <button type="button" class="btn btn-info" onclick="getLengthInfo()">Submit</button>
+                <button type="reset" class="btn btn-reset" onclick="clearInfo()">Reset</button>
+            </article>
+        </form>
+    </section>
 </body>
 </html>
