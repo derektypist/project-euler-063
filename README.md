@@ -48,3 +48,25 @@ Allows the user to enter the length of the digits in order to find the number of
 
 Extensions include the count of all n-digit numbers which are nth power.
 
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.3 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-063) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgement
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
