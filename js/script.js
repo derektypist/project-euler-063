@@ -44,8 +44,8 @@ function powerfulDigitCounts(n) {
 
     let numbersCount = 0;
     let curNum = 1;
+    let power = n;
     while (curNum < 10) {
-        let power = n;
         if (power === countDigits(curNum ** power)) {
             numbersCount++;
         }
