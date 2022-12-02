@@ -1,19 +1,15 @@
-// Function to Get Length Information (including Invalid Input)
-function getLengthInfo() {
-    // Set Up Variable
+// Function Show Solution
+function showSolution() {
+    // Set Up Variables
     let txt = "";
-    // Get the value of the input field
-    let num = document.getElementById("mylength").value;
-    // Check if input is valid
-    if (isNaN(num) || num.length == 0 || num < 1 || num > 21 || (num.length > 1 && num[0] == "0") || !Number.isInteger(Number(num))) {
-        txt += `Invalid Input.  Please enter a whole number between 1 and 21.  Do not include leading zeros.`
-    } else {
-        txt += `You have requested ${num}-digit length. <p>`;
-        txt += `There are ${powerfulDigitCounts(num)} positive integers of length ${num} and power ${num}.`;
+    let examples = [1,2,3,4,5,6,7,8,10,21];
+    // Apply For Loop
+    for (let example of examples) {
+        txt += `There are ${powerfulDigitCounts(example)} positive integers of length ${example} and power of ${example}.`;
     }
 
     // Display Information in the Browser
-    document.getElementById("lengthinfo").innerHTML = txt;
+    document.getElementById("solution").innerHTML = txt;
 }
 
 /*
@@ -44,8 +40,8 @@ function powerfulDigitCounts(n) {
 
     let numbersCount = 0;
     let curNum = 1;
-    let power = n;
     while (curNum < 10) {
+        let power = n;
         if (power === countDigits(curNum ** power)) {
             numbersCount++;
         }
@@ -55,8 +51,8 @@ function powerfulDigitCounts(n) {
     return numbersCount;
 }
 
-// Function to Clear Information
-function clearInfo() {
+// Function to Hide Solution
+function hideSolution() {
     let txt = "";
-    document.getElementById("lengthinfo").innerHTML = txt;
+    document.getElementById("solution").innerHTML = txt;
 }
